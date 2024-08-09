@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: black;
+
+}
+
+
+.dado {
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    
+}
+
+h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 125px;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37.5px;
+    margin-bottom: 15px;
+
+
+}
+
+.inp {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+
+}
+
+input {
+
+    width: 342px;
+    height: 74px;
+    background-color: #FFFFFF40;
+    border: 1px solid #FFFFFF33;
+    border-radius: 14px;
+    color: white;
+    font-size: 40px;
+}
+
+
+.inp1 {
+    margin-right: 25px;
+}
+
+.inp2 {
+    margin-left: 25px;
+}
+
+button {
+    cursor: pointer;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: #AEC346;
+    width: 342px;
+    height: 72px;
+    font-size: 36px;
+    border-radius: 10px;
+    font-weight: 700;
+    line-height: 64px;
+    margin-top: 51px;
+    color: black;
+box-shadow: 0px 18px 40px 0px #AEC34659;
+}
+p{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 30px;
+    color: #AEC346;
+}
+@media screen and (max-width:840px )
+{ 
+    input {
+
+       width: 150px;
+        
+}
+.dado {
+   
+    
+    margin: 100 0 0 0;
+    width: 80vw;
+    height: auto;
+    
+}
+button{
+    width: 200px;
+    height: auto;
+}
+}
+    
